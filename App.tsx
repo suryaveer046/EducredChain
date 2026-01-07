@@ -10,7 +10,7 @@ import ContactUs from "./pages/Contact";
 import About from "./pages/About";
 import ZoomAnimatedLogo from "./pages/AnimatedLogo";
 import LoginModal from "./pages/Protected";
-//
+
 function App() {
   const navigate = useNavigate();
 

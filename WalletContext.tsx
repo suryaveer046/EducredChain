@@ -25,7 +25,7 @@ interface WalletProviderProps {
   children: React.ReactNode;
 }
 
-export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
+export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => { 
   const address = useAddress();
   const connectWithMetamask = useMetamask();
   const disconnect = useDisconnect();

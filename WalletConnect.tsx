@@ -22,7 +22,7 @@ const WalletConnect: React.FC<WalletConnectProps> = ({ isMobile = false }) => {
     e.preventDefault();
     disconnectWallet();
   };
-
+ 
   return (
     <div className={`${isMobile ? 'w-full' : ''}`}>
       {address ? (

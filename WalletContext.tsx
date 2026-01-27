@@ -22,7 +22,7 @@ const WalletContext = createContext<WalletContextType>({
 export const useWallet = () => useContext(WalletContext);
 
 interface WalletProviderProps { 
-  children: React.ReactNode;
+  children: React.ReactNode; 
 }
 
 export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => { 

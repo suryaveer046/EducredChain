@@ -13,7 +13,7 @@ interface CredentialFormData {
   issuer: string;
   issueDate: string;
 }
-
+ 
 const UploadPage = () => {
   const navigate = useNavigate();
   const { addCredential, setIsLoading } = useCredentials();

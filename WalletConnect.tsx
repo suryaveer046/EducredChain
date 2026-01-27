@@ -15,7 +15,7 @@ const WalletConnect: React.FC<WalletConnectProps> = ({ isMobile = false }) => {
 
   const handleConnect = async (e: React.MouseEvent) => {
     e.preventDefault();
-    await connectWallet();
+    await connectWallet(); 
   };
 
   const handleDisconnect = (e: React.MouseEvent) => {

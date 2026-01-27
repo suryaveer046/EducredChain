@@ -13,7 +13,7 @@ interface CredentialFormProps {
 
 const CredentialForm: React.FC<CredentialFormProps> = ({ onSubmit }) => {
   const { 
-    register, 
+    register,
     handleSubmit, 
     formState: { errors, isValid } 
   } = useForm<CredentialFormData>({

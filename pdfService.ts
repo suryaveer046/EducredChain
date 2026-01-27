@@ -11,7 +11,7 @@ export const parsePDF = async (file: File): Promise<string> => {
   // In a real application, we would use pdf.js to extract text
   // For demo purposes, we'll simulate the parsing process
   
-  try {
+  try { 
     // Simulate parsing delay 
     await new Promise(resolve => setTimeout(resolve, 2000));
      

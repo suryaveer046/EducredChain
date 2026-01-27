@@ -21,7 +21,7 @@ const WalletContext = createContext<WalletContextType>({
 
 export const useWallet = () => useContext(WalletContext);
 
-interface WalletProviderProps {
+interface WalletProviderProps { 
   children: React.ReactNode;
 }
 

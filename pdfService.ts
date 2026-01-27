@@ -21,7 +21,7 @@ export const parsePDF = async (file: File): Promise<string> => {
       
       This certifies that [Student Name] has successfully completed
       the course on Blockchain Technology and Applications
-      
+       
       Covering topics including:
       - Distributed Ledger Technology
       - Smart Contracts

@@ -24,7 +24,7 @@ const CredentialForm: React.FC<CredentialFormProps> = ({ onSubmit }) => {
       issueDate: new Date().toISOString().split('T')[0],
     }
   });
-  
+   
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="space-y-6">

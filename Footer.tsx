@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, Github, Twitter, Linkedin } from 'lucide-react';
 
-const Footer = () => {
+const Footer = () => { 
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-custom py-12">

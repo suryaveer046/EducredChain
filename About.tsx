@@ -15,7 +15,7 @@ const About: React.FC = () => {
     { title: "Backend (Optional)", desc: "Node.js, Express, MongoDB" },
   ];
 
-  return ( 
+  return (
     <div className="min-h-screen flex flex-col justify-between bg-gradient-to-r from-violet-500 to-purple-500">
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 py-16">
@@ -57,4 +57,5 @@ const About: React.FC = () => {
 };
 
 export default About;
+
 

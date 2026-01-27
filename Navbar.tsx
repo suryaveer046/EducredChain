@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { useWallet } from "../../contexts/WalletContext";
 import WalletConnect from "../wallet/WalletConnect";
- 
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);

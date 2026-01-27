@@ -7,7 +7,7 @@ import UploadSteps from '../components/upload/UploadSteps';
 import CredentialForm from '../components/upload/CredentialForm';
 import { uploadToIPFS } from '../services/ipfsService';
 import { mintNFT } from '../services/web3Service';
-
+ 
 interface CredentialFormData {
   name: string;
   issuer: string;

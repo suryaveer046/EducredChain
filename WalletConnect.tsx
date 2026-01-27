@@ -59,6 +59,6 @@ const WalletConnect: React.FC<WalletConnectProps> = ({ isMobile = false }) => {
       )}
     </div>
   );
-};
+}; 
 
 export default WalletConnect;

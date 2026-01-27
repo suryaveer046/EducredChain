@@ -8,7 +8,7 @@ interface CredentialFormData {
 }
 
 interface CredentialFormProps {
-  onSubmit: (data: CredentialFormData) => void;
+  onSubmit: (data: CredentialFormData) => void; 
 }
 
 const CredentialForm: React.FC<CredentialFormProps> = ({ onSubmit }) => {

@@ -65,7 +65,7 @@ const Navbar = () => {
                       : "text-white hover:text-primary-600"
                   }`}
                 >
-                  {link.name}
+                  {link.name} 
                 </Link>
               ))}
             </div>

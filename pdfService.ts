@@ -14,7 +14,7 @@ export const parsePDF = async (file: File): Promise<string> => {
   try { 
     // Simulate parsing delay 
     await new Promise(resolve => setTimeout(resolve, 2000));
-     
+    
     // Return mock content
     return `
       CERTIFICATE OF COMPLETION

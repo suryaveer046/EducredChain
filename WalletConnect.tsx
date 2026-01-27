@@ -4,7 +4,7 @@ import { Wallet, LogOut } from 'lucide-react';
 
 interface WalletConnectProps {
   isMobile?: boolean;
-}
+} 
 
 const WalletConnect: React.FC<WalletConnectProps> = ({ isMobile = false }) => {
   const { address, connectWallet, disconnectWallet, isConnecting } = useWallet();

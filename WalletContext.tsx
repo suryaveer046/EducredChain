@@ -11,7 +11,7 @@ interface WalletContextType {
   connectWallet: () => Promise<void>;
   disconnectWallet: () => void;
 }
- 
+
 const WalletContext = createContext<WalletContextType>({
   address: undefined,
   isConnecting: false,

@@ -11,7 +11,7 @@ import About from "./pages/About";
 import ZoomAnimatedLogo from "./pages/AnimatedLogo";
 import LoginModal from "./pages/Protected";
 
-function App() {
+function App() { 
   const navigate = useNavigate();
 
   return (

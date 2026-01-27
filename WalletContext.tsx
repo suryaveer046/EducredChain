@@ -41,7 +41,7 @@ export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
   const disconnectWallet = useCallback(() => {
     disconnect();
   }, [disconnect]);
-
+ 
   return (
     <WalletContext.Provider
       value={{

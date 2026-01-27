@@ -20,7 +20,7 @@ const LoginModal: React.FC = () => {
               }}
               className="bg-black text-white px-6 py-2 rounded-full hover:scale-105 transition-transform duration-300"
             >
-              OK  
+              OK
             </button>
           </div>
         </div>
@@ -30,4 +30,5 @@ const LoginModal: React.FC = () => {
 };
 
 export default LoginModal;
+
 

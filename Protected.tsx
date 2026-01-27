@@ -17,7 +17,7 @@ const LoginModal: React.FC = () => {
               onClick={() => {
                 setModalOpen(false);
                 navigate("/home");
-              }}
+              }} 
               className="bg-black text-white px-6 py-2 rounded-full hover:scale-105 transition-transform duration-300"
             >
               OK
@@ -30,5 +30,6 @@ const LoginModal: React.FC = () => {
 };
 
 export default LoginModal;
+
 
 

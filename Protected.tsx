@@ -5,7 +5,7 @@ const LoginModal: React.FC = () => {
   const navigate = useNavigate();
   const [modalOpen, setModalOpen] = useState<boolean>(true); // modal is open by default
 
-  return (
+  return ( 
     <>
       {modalOpen && (
         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-60 z-50">
@@ -30,6 +30,7 @@ const LoginModal: React.FC = () => {
 };
 
 export default LoginModal;
+
 
 
 

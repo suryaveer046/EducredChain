@@ -24,7 +24,7 @@ export const useWallet = () => useContext(WalletContext);
 interface WalletProviderProps { 
   children: React.ReactNode; 
 }
-
+  
 export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => { 
   const address = useAddress();
   const connectWithMetamask = useMetamask();

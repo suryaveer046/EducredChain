@@ -18,7 +18,7 @@ export default {
           950: '#2e1065',
         },
         secondary: {
-          50: '#f0fdfa',
+          50: '#f0fdfa', 
           100: '#ccfbf1',
           200: '#99f6e4',
           300: '#5eead4',

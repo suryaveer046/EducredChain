@@ -30,7 +30,7 @@ export default {
           900: '#134e4a',
           950: '#042f2e',
         },
-        accent: {
+        accent: { 
           50: '#fffbeb',
           100: '#fef3c7',
           200: '#fde68a',

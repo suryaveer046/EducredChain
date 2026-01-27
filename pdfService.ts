@@ -36,7 +36,7 @@ export const parsePDF = async (file: File): Promise<string> => {
     `;
   } catch (error) {
     console.error('Error parsing PDF:', error);
-    throw error;
+    throw error; 
   }
 };
 

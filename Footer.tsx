@@ -28,7 +28,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-  
+          
           {/* Links */}
           <div className="col-span-1">
             <h4 className="text-white font-medium mb-4">Platform</h4>

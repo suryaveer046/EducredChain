@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand */}
+          {/* Brand */} 
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <img className='h-8 w-8' src="/logo.png" alt="logo" />

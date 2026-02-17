@@ -1,7 +1,7 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import { Mail, User, MessageSquare } from "lucide-react";
 
-interface FormData {
+interface FormData { 
   name: string;
   email: string;
   message: string;
@@ -128,3 +128,4 @@ export default function ContactUs() {
     </div>
   );
 }
+

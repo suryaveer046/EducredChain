@@ -3,7 +3,7 @@ import { Mail, User, MessageSquare } from "lucide-react";
 
 interface FormData { 
   name: string;
-  email: string; 
+  email: string;  
   message: string;
 }
 
@@ -128,5 +128,6 @@ export default function ContactUs() {
     </div>
   );
 }
+
 
 
